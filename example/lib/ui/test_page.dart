@@ -88,7 +88,7 @@ class TestPageState extends State<TestPage> {
               child: Center(
                 child: Text(
                   'Header',
-                  style: textTheme.headline6?.copyWith(color: Colors.white),
+                  style: textTheme.titleLarge?.copyWith(color: Colors.white),
                 ),
               ),
             ),
@@ -99,7 +99,7 @@ class TestPageState extends State<TestPage> {
             child: Center(
               child: Text(
                 'Footer',
-                style: textTheme.headline6?.copyWith(color: Colors.white),
+                style: textTheme.titleLarge?.copyWith(color: Colors.white),
               ),
             ),
           ),
