@@ -280,7 +280,10 @@ class CustomSliverAnimatedListState extends State<CustomSliverAnimatedList>
 
   @override
   Widget build(BuildContext context) {
-    return SliverList(
+    return SliverGrid(
+      gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+        maxCrossAxisExtent: 400,
+      ),
       delegate: _createDelegate(),
     );
   }
